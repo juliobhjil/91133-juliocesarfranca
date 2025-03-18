@@ -1,0 +1,109 @@
+/*Zera as config da pag*/
+
+*{
+    margin: 0; /*zera a margem*/
+    padding: 0; /*zera espaço*/
+    box-sizing:border-box; /* zera bordas*/
+}
+
+header{
+    background-color: rgb(0, 204, 255);
+    margin: 30px;
+    padding: 30px;
+}
+
+ul li{
+    /*tira as bolinhas*/
+    list-style: none;
+    display: inline;
+   padding: 15px;
+}
+
+a{
+    /*tira o sublinhadp*/
+    text-decoration: none;
+    color: rgb(60, 60, 82);
+    font-weight: bold;
+    font-size: 18pt;
+    cursor: pointer;
+
+
+}
+
+a:hover{
+    color:blue;
+    text-decoration: overline;
+    padding: 12px;
+    transition: 200ms;
+}
+section{
+    margin: 30px;
+
+}
+h2{
+    background-color: rgb(0, 60, 255);
+}
+
+.noob{
+    background-color: rgb(0, 132, 255);
+
+    
+
+}
+
+.pro{
+    background-color: rgb(27, 109, 141);
+}
+
+.master{
+    background-color: rgb(27, 67, 141);
+}
+
+.nubi{
+    background-color: rgb(0, 153, 255);
+    padding: 10px;
+   margin: 1px 0px;
+}
+
+.produx{
+    background-color: rgb(27, 109, 141);
+    padding: 10px;
+    margin: 1px 0px;
+}
+
+.contatinhos{
+    background-color: rgb(27, 67, 141);
+    padding: 10px;
+    margin: 1px 0px;
+}
+
+#font-type{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,
+    'Lucida Sans Unicode', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    transition: 100ms;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+}
+
+body {
+    background-color: #6fb5ee; /* Cor celestial (azul claro) */
+}
