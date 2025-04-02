@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    color: black;
+    line-height: 1.4;
+}
+
+footer{
+    background-color: yellow;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+    color: black;
+    border-top: 4px solid;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+footer{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+
